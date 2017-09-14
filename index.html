@@ -1,0 +1,427 @@
+<html>
+	<head>
+		<meta charset="UTF-16">
+
+
+<!-- 
+		she don't wanna see herself reflected. In the backs of all the creatures she hate 
+		She don't wanna tell them she's been busy soaking in the lake
+		the water fills her lungs up, water pushes 
+		through the cracks of the cage in her chest 
+		resoviours in pouches by her shoulders
+		forming her new breasts. 
+		what is in the mirror, what is pushing?
+		through the space in this childhood shirt? 
+		hey there, hey there boy 
+		found thee your new joy? 
+		...
+		the noise of all the chatting folk cries out like an animal 
+		the smell of all the pheromones is pain and irresistable. 
+		run around the earth and don't come back 
+		she don't wanna see herself reflected in the water of the frozen lake.  
+		
+
+		need//
+		
+		-new sounds 
+		
+		--page resize
+		-->
+
+
+		<title>Lufttonnetz</title>
+		<style>
+			body { margin: 0;
+			font-family:monospace; }
+			canvas { width: 100%; height: 100% }
+			button{font-family:monospace;}
+
+			#path{
+				/*background-color: red;*/
+				width:100%;
+				height:50px;
+				overflow:auto;
+				text-align:left;
+				padding-left:10px;
+			}
+
+			#toggle{
+				position:fixed;
+				text-align:right;
+				left:61.8%;
+				font-size:14px;
+				
+				height:40px;
+				width:37.2%;
+			/*	height:38.2%;*/
+				top: 61.8%;
+
+			/*	overflow: scroll;*/
+				z-index:1;
+				font-family: monospace;
+				/*background-color: red;*/
+			}
+
+			#spiel{
+				position:fixed;
+				left:61.8%;
+				width:37.2%;
+				height:38.2%;
+				top: 65%;
+				overflow: scroll;
+				z-index:2;
+				font-size:15px;
+				padding-left:10px;
+				padding-bottom:100px;
+				
+				/*background-color: red;*/
+			}
+			#controls{
+				position:fixed;
+				/*left:61.8%;*/
+				right:0px;
+				width:20%;
+				height:23.6%;
+				bottom:38.2%;
+			/*	overflow: scroll;*/
+				z-index:1;
+				font-size:14px;
+				
+				text-align:right;
+				padding-right:10px;
+				/*background-color: blue;*/
+
+			}
+
+			#sounds{
+				position:fixed;
+				left:61.8%;
+				width:38.2%;
+				height:1000px;
+				/*bottom:38.2%;*/
+				top:43.2%;
+				/*overflow: scroll;*/
+				z-index:1;
+				font-size:14px;
+			/*	visibility:none;*/
+				
+				text-align:left;
+				padding-right:10px;
+				/*background-color: blue;*/
+
+			}
+			#checks{
+				position:fixed;
+				left:61.8%;
+				width:38.2%;
+				height:38.6%;
+			/*	visibility:none;*/
+				bottom:38.2%;
+				top:46.2%;
+				/*overflow: scroll;*/
+				z-index:1;
+				font-size:14px;
+				
+				text-align:left;
+				padding-right:10px;
+				/*background-color: blue;*/
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id = "sounds" onclick = "togSounds()">&#9660;
+<script>
+
+	
+		var soundsTog = true;
+		function togSounds(){
+			//var checks = document.getElementById("checks");
+			var sounds = document.getElementById("sounds");
+			if(!soundsTog){
+				document.getElementById("checks").style.display = "block"
+				sounds.innerHTML = "&#9660;"
+				soundsTog = true;
+			} else if (soundsTog){
+				document.getElementById("checks").style.display = "none"
+				sounds.innerHTML = "&#9654;"
+				soundsTog = false;
+			}
+			
+
+			//toggled = !toggled;
+		}
+
+</script>
+
+
+
+</div>
+
+		<div id = "checks" >
+
+<input type="checkbox" name="pad" onclick="checkPad()" checked = "true"> pad 
+<input type = "range" style = "width:50px" min = "-50"max = "0" onchange="setVolume(this.value, synth1)" value = "-10"> <br>
+
+<script>
+function setVolume(db, synth){
+	if(synth instanceof Array){
+		synth.forEach(function(s){
+			s.volume.value = db;
+		})
+	} else {
+		synth.volume.value = db;
+	}
+	
+}
+
+
+function checkPad(){
+	pad = !pad;
+
+	if(pad){
+		startPad(synth1)
+	} else {
+		stopPad(synth1)
+	}
+}
+</script>
+
+<input type="checkbox" name="chirp" onclick="checkChirp()" position = "-20" > chirp 
+<input type = "range" style = "width:50px" min = "-50"max = "0" onchange="setVolume(this.value, [synth2, synth3])" value = "-20"><br>
+
+<script>
+var chirp = false;
+function checkChirp(){
+	chirp = !chirp;
+
+	if(chirp){
+		loop2.start();
+		loop3.start();
+	} else {
+		loop2.stop();
+		loop3.stop();
+	}
+}
+</script>
+
+
+<input type="checkbox" name="bass" onclick="checkBass()" position = "-10" checked = "true"> bass 
+<input type = "range" style = "width:50px" min = "-50"max = "0" onchange="setVolume(this.value, bass)" value = "0"><br>
+
+<script>
+var bassOn = true;
+function checkBass(){
+	bassOn = !bassOn;
+
+	if(bassOn){
+		bassLoop.start();
+	} else {
+		bassLoop.stop();
+	}
+}
+</script>
+
+
+
+		
+	</div>
+
+
+		<div id = "controls"><a id = "traj"></a><br> <br>
+			<!-- <span id = "path">fds</span> -->
+			
+			
+
+			<button id = "p" onClick = "addP()">P</button>
+
+
+			<script>
+			function addP(){
+				if(!cat.go){
+					var div = document.getElementById("path");
+					if(adding){
+						div.innerHTML+="P}"
+						adding=false;
+						var last = path[path.length-1];
+						path.splice(path.length-1, 1, last.getClosestP());
+					} else {
+						div.innerHTML+= " {P}"
+						path.push(path[path.length-1].getClosestP());
+						//console.log(path);
+					}
+				}
+				
+				
+			}
+			
+			</script>
+			<button id = "r" onClick = "addR()">R</button>
+			<script>
+			function addR(){
+				if(!cat.go){
+					var div = document.getElementById("path");
+					if(adding){
+						div.innerHTML+="R}"
+						adding=false;
+						var last = path[path.length-1];
+						path.splice(path.length-1, 1, last.getClosestR());
+					} else {
+						div.innerHTML+= " {R}"
+						path.push(path[path.length-1].getClosestR());
+					}
+				}
+				
+			}
+			
+			</script>
+			<button id = "l" onClick = "addL()">L</button>
+			<script>
+			function addL(){
+				if(!cat.go){
+					var div = document.getElementById("path");
+					if(adding){
+						div.innerHTML+="L}"
+						adding=false;
+						var last = path[path.length-1];
+						path.splice(path.length-1, 1, last.getClosestL());
+					} else {
+						div.innerHTML+= " {L}"
+						path.push(path[path.length-1].getClosestL());
+					}
+				}
+				
+				
+			}
+			
+			</script>
+
+
+			<br><br>   
+			<button id = "+" onClick = "add()">+</button>
+
+			<script>
+			function add(){
+				var div = document.getElementById("path");
+				if(!adding){
+					adding = true;
+					//div.innerHTML;
+					var current = div.innerHTML;
+					//console.log(current);
+					ns = current.slice(0, current.length-1);
+					div.innerHTML = ns;
+				}
+				
+			}
+			
+			</script>
+
+			<button id = "go" onClick = "go()"><h3>GO</h4></button>
+
+
+			<script>
+
+			</script>
+
+
+
+			<br>
+			<div id = "path"></div>
+
+
+
+
+		</div><font color="black">
+		<div id = "toggle" onclick="toggle()">&#9664; ?</div></font>
+		<script>
+		var toggled = false;
+		function toggle(){
+			var spiel = document.getElementById("spiel");
+			var tog = document.getElementById("toggle");
+			if(!toggled){
+				spiel.style.display = "block";
+				tog.innerHTML = "&#9660; ?"
+				toggled = true;
+			} else if (toggled){
+				spiel.style.display = "none";
+				tog.innerHTML = "&#9664; ?"
+				toggled = false;
+			}
+			
+
+			//toggled = !toggled;
+		}
+		</script>
+
+		<div id = "spiel" style="display:none">
+			The grid of notes above is a <i>Tonnetz</i>. It's made from rows of perfect fifths and columns of major thirds. When each cell is divided diagonally, the vertices of the resulting triangle are the notes of either a major (+) or minor (-) triad.<br>
+			The 6x6 Tonnetz above can be extended infinitely in all directions. A 12x6 Tonnetz has the interesting property that its vertical and horizontal edges can be glued together, yielding a torus - that's what you see to the left. <br><br>
+			There are three primitive maneuvers on the Tonnetz which correspond to flipping a triangle over one of its three edges. Each of these basic moves relates a major triad to a minor triad.<br><br>
+			
+			{P} (parallel) relates a major triad to a minor triad with the same root:<br>
+			<img src = "assets/P.png" style="width:59; height:auto"></img><img src = "assets/P-1.png" style="width:150; height:auto"></img><br>
+			<br>{R} (relative) relates a major triad to the minor triad whose root lies a three semitones below it:<br>
+			<img src = "assets/R.png" style="width:100; height:auto"></img><img src = "assets/R-1.png" style="width:150; height:auto"><br><br>
+			<br>{L} (leading-tone exchange) relates a major triad to the minor triad whose root lies four semitones above it:<br>
+			<img src = "assets/L.png" style="width:50; height:auto"></img><img src = "assets/L-1.png" style="width:150; height:auto"><br><br>
+			These three primitive transformations can be combined. Some of these combinations are so common that they have names:<br><br>
+			{RLP} = N, the neighbor: <br>
+			<img src = "assets/N-1.png" style="width:150; height:auto"><br><br>
+
+			{LPR} = S, the slide:<br>
+			<img src = "assets/S-1.png" style="width:150; height:auto"><br><br>
+			{LPL} = H, the hexatonic pole:<br>
+			<img src = "assets/H-1.png" style="width:150; height:auto"><br><br>
+			The Tonnetz is valuable because it allows triads to be conceived in direct relation to one another as neighbors in a space of possibilities. It allows a way of doing harmony without scales or key signatures. <br><br>
+			Refrences:<br><br>
+			on the Tonnetz and similar concepts:<br>
+			<a href="https://en.wikipedia.org/wiki/Neo-Riemannian_theory">Neo-Riemannian theory @ Wikipedia</a><br>
+			Richard Cohn, <i>Audacious Euphony</i>, Oxford University Press 2012.
+			<br><br>
+			on other geometric approaches to harmony:<br>
+			Dmitri Tymoczko, <i>A Geometry of Music</i>, Oxford University Press 2011.<br>//<br>//
+</div>
+
+
+
+		<script src="js/three.min.js"></script>
+
+				<script src="js/p5.min.js"></script>
+
+				<script src="js/p5.dom.js"></script>
+				<script src="js/Tone.min.js"></script>
+
+
+		<script src="js/OBJLoader.js"></script>
+		<script src="setup.js"></script>
+				<script src="sketch.js"></script>
+								<script src="collide.js"></script>
+
+
+		<script src="loop.js"></script>
+		<script src="music.js"></script>
+				<script src="chord.js"></script>
+
+
+		<script src="threex.keyboardstate.js"></script>
+
+		<script src="cat.js"></script>
+				<script src="note.js"></script>
+
+		<script>
+		//var torus;
+		
+
+			var render = function () {
+				requestAnimationFrame( render );
+
+				loop();
+
+				renderer.render(scene, camera);
+			};
+
+			//render();
+		</script>
+	</body>
+</html>

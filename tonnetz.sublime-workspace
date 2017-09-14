@@ -1,0 +1,625 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"back",
+				"BackSide"
+			],
+			[
+				"Mesh",
+				"MeshPhongMaterial"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "setup.js",
+			"settings":
+			{
+				"buffer_size": 9959,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "loop.js",
+			"settings":
+			{
+				"buffer_size": 3670,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sketch.js",
+			"settings":
+			{
+				"buffer_size": 5074,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "collide.js",
+			"settings":
+			{
+				"buffer_size": 5886,
+				"line_ending": "Unix",
+				"name": "console.log(\"### p5.collide ###\");p5.prototype._co"
+			}
+		},
+		{
+			"file": "chord.js",
+			"settings":
+			{
+				"buffer_size": 6061,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cat.js",
+			"settings":
+			{
+				"buffer_size": 4284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "note.js",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "music.js",
+			"settings":
+			{
+				"buffer_size": 4803,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/danefilipczak/Documents/Blender/dane.audio/circadian/main.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/circadian/drawLoop.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/circadian/index.html",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/content_3.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/oil.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/sketch_3.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/index.html",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/passerine/index.html",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/cyerce/node.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/cyerce/sketch.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/cyerce/flower.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/MM/content_3.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/MM/index.html",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/MM/sketch_3.js",
+		"/Users/danefilipczak/Desktop/tonnetz/threex.keyboardstate.js",
+		"/Users/danefilipczak/Desktop/tonnetz/cat.js",
+		"/Users/danefilipczak/Desktop/tonnetz/loop.js",
+		"/Users/danefilipczak/Desktop/tonnetz/setup.js",
+		"/Users/danefilipczak/Desktop/tonnetz/index.html",
+		"/Users/danefilipczak/Desktop/thesis/write up",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/passerine/finch.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/passerine/sketch_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/passerine/world_1.js",
+		"/Users/danefilipczak/Desktop/tonnetz/assets/tonnetz.obj",
+		"/Users/danefilipczak/Desktop/tonnetz/assets/tonnetz.mtl",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/boid_2.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/content_2.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/sketch_2.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/sands/sketch.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/sands/index.html",
+		"/Users/danefilipczak/Desktop/thesis/EVC/listener.js",
+		"/Users/danefilipczak/Desktop/thesis/EVC/finch.js",
+		"/Users/danefilipczak/Desktop/thesis/EVC/theory.js",
+		"/Users/danefilipczak/Desktop/thesis/EVC/world.js",
+		"/Users/danefilipczak/Desktop/thesis/EVC/smiley.js",
+		"/Users/danefilipczak/Desktop/thesis/EVC/boundary.js",
+		"/Users/danefilipczak/Desktop/thesis/EVC/index.html",
+		"/Users/danefilipczak/Desktop/thesis/EVC/sketch.js",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/index.html",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/sketch.js",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/boid.js",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/flock.js",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/vehicle.js",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/anchor.js",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/detector.js",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/drawLoop.js",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/triad.js",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/node.js",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/index.html",
+		"/Users/danefilipczak/Desktop/thesis/CGthree/main.js",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/circadian/index.html",
+		"/Users/danefilipczak/Documents/P5/CGthree/node.js",
+		"/Users/danefilipczak/Documents/P5/CGthree/index.html",
+		"/Users/danefilipczak/Documents/P5/CGthree/main.js",
+		"/Users/danefilipczak/Documents/P5/EVC/sketch.js",
+		"/Users/danefilipczak/Documents/P5/EVC/boundary.js",
+		"/Users/danefilipczak/Documents/P5/EVC/index.html",
+		"/Users/danefilipczak/Documents/P5/EVC/smiley.js",
+		"/Users/danefilipczak/Documents/P5/EVC/world.js",
+		"/Users/danefilipczak/Documents/P5/EVC/finch.js",
+		"/Users/danefilipczak/Documents/P5/EVC/windmill.js",
+		"/Users/danefilipczak/Documents/P5/EVC/box.js",
+		"/Users/danefilipczak/Documents/P5/cellularGrowth/edge.js",
+		"/Users/danefilipczak/Documents/P5/cellularGrowth/node.js",
+		"/Users/danefilipczak/Documents/P5/cellularGrowth/index.html",
+		"/Users/danefilipczak/Documents/P5/cellularGrowth/sketch.js",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/dane/index.html",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/content_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/sketch_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/boid_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/dane/boid_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/dane/flock_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/dane/sketch_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/dane/content_1.js",
+		"/Users/danefilipczak/Documents/Blender/dane.audio/dane/index.html",
+		"/Users/danefilipczak/Documents/P5/flowersynth/bjorklund.js",
+		"/Users/danefilipczak/Documents/P5/flowersynth/node.js",
+		"/Users/danefilipczak/Documents/P5/flowersynth/index.html",
+		"/Users/danefilipczak/Documents/P5/flowersynth/triad.js",
+		"/Users/danefilipczak/Documents/P5/flowersynth/sketch.js",
+		"/Users/danefilipczak/Documents/P5/flowersynth/flower.js",
+		"/Users/danefilipczak/Documents/P5/EVC/listener.js",
+		"/Users/danefilipczak/Documents/P5/EVC/particle.js",
+		"/Users/danefilipczak/Documents/P5/EVC/lib/box2d-helper.js",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_05_MultiShapes/index.html",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_04_Polygons/index.html",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_07_RevoluteJoint/windmill.js",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_09_CollisionListening/index.html",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_06_DistanceJoint/particle.js",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_06_DistanceJoint/pair.js",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_06_DistanceJoint/index.html",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_07_RevoluteJoint/index.html",
+		"/Users/danefilipczak/Documents/P5/The-Nature-of-Code-Examples-p5.js-master/chp05_libraries/box2d-html5/NOC_5_03_ChainShape_Simple/index.html",
+		"/Users/danefilipczak/Documents/P5/flowersynth/libraries/soundfont-player.min.js",
+		"/Users/danefilipczak/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/danefilipczak/Documents/P5/flowersynth/untitled",
+		"/Users/danefilipczak/Documents/P5/differential nodes/index.html",
+		"/Users/danefilipczak/Documents/P5/differential nodes/sketch.js",
+		"/Users/danefilipczak/Desktop/toxic_bloom_vr/toxicbloom/index.html",
+		"/Users/danefilipczak/Desktop/babylon/index.html",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard3.obj",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard2.obj",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard2.mtl",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard3.mtl",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard1.obj",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard0.obj",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard1.mtl",
+		"/Users/danefilipczak/Desktop/babylon/shittylizard0.mtl",
+		"/Users/danefilipczak/Desktop/babylon/objloader.js",
+		"/Users/danefilipczak/Desktop/babylon/scene.js",
+		"/Users/danefilipczak/Documents/P5/instruments /earthwormbeta/sketch_01.js",
+		"/Users/danefilipczak/Documents/P5/instruments /earthwormbeta/melody_01.js",
+		"/Users/danefilipczak/Documents/P5/nodegen/index.html",
+		"/Users/danefilipczak/Documents/P5/nodegen/sketch.js",
+		"/Users/danefilipczak/Documents/P5/differential growth with nodes/index.html",
+		"/Users/danefilipczak/Documents/P5/nodegen copy/sketch.js",
+		"/Users/danefilipczak/Documents/P5/nodegen copy/index.html",
+		"/Users/danefilipczak/Documents/Blender/imagination rock/fundamentalentropy/index.html",
+		"/Users/danefilipczak/Documents/P5/instruments /caasi/particle.js",
+		"/Users/danefilipczak/Documents/P5/instruments /caasi/sketch.js",
+		"/Users/danefilipczak/Documents/P5/instruments /caasi/index.html",
+		"/Users/danefilipczak/Documents/P5/instruments /caasi/slider.js",
+		"/Users/danefilipczak/Documents/P5/instruments /caasi/button.js",
+		"/Users/danefilipczak/Desktop/p5.music.js proposal ",
+		"/Users/danefilipczak/Desktop/p5.music.js development ",
+		"/Users/danefilipczak/Documents/P5/instruments /earthwormbeta/index.html",
+		"/Users/danefilipczak/Documents/P5/instruments /earthwormbeta/melody.js",
+		"/Users/danefilipczak/Desktop/week 16 discussion "
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height",
+			"width",
+			"World",
+			"bagpipe",
+			"this.cpms",
+			"function mousePressed()",
+			"initialized",
+			"neighbor",
+			"position",
+			"help",
+			"textFont",
+			"text",
+			"font",
+			"this.pphrase",
+			"this.ppart",
+			"darwintoggle",
+			"note",
+			"slider",
+			"maxHeight"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"windowHeight",
+			"windowWidth",
+			"Frame",
+			"english_horn",
+			"pos"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "setup.js",
+					"settings":
+					{
+						"buffer_size": 9959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3859.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3448,
+								3448
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2861.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "loop.js",
+					"settings":
+					{
+						"buffer_size": 3670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								501,
+								501
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sketch.js",
+					"settings":
+					{
+						"buffer_size": 5074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2053,
+								2053
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1596.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "collide.js",
+					"settings":
+					{
+						"buffer_size": 5886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5886,
+								5886
+							]
+						],
+						"settings":
+						{
+							"auto_name": "console.log(\"### p5.collide ###\");p5.prototype._co",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chord.js",
+					"settings":
+					{
+						"buffer_size": 6061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 148.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "cat.js",
+					"settings":
+					{
+						"buffer_size": 4284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 338.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "note.js",
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "music.js",
+					"settings":
+					{
+						"buffer_size": 4803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3792,
+								3792
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 524.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}
