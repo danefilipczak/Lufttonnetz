@@ -79,6 +79,7 @@ var sketch = function (p) {
     }
   }
   p.setup = function () {
+    Tone.context._context.suspend()
     c = p.createCanvas(window.innerWidth-(window.innerWidth*0.618), window.innerHeight);
     c.position(window.innerWidth*0.618, 0)
     p.frameRate(6)
